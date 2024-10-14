@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/8347/8347721.png" type="image/x-icon"> 
+  <title>кликер</title>
+</head>
+<body>
+ <section class="content">
+   <section class="block">
+     <div class="js-counter"></div>
+     <div class="photo">
+        <img class="personPhoto" id="image" src="image.png">
+     </div>   
+        <button class="js-inc-btn" id="resizeButton"> клик </button>
+        <button class="js-clear-btn"> вывести </button>
+        <button class="js-delit-btn">уничтожить баланс</button> 
+        <button id="magButton">Магазин</button>
+     
+   </section>
+  </audio>
+    <!-- Initial Music -->
+    <audio id="initial-music" autoplay loop>
+        <source src="undertale_012. Home.mp3" type="audio/mp3">
+      </audio>
+  
+      <!-- Music after 50 clicks -->
+      <audio id="music-after-50-clicks" loop>
+        <source src="undertale_025. Dating Start!.mp3" type="audio/mp3">
+      </audio>
+ <!-- Music after 100 clicks -->
+      <audio id="music-after-100-clicks" loop>
+        <source src="toby fox - Snowy.mp3" type="audio/mp3">
+      </audio>
+<!-- Music after 150 clicks -->
+      <audio id="music-after-150-clicks" loop>
+        <source src="undertale_027. Dating Fight!.mp3" type="audio/mp3">
+      </audio>
+<!-- Music after 200 clicks -->
+      <audio id="music-after-200-clicks" loop>
+        <source src="undertale_033. Quiet Water.mp3" type="audio/mp3">
+      </audio>
+<!-- Music after 250 clicks -->
+      <audio id="music-after-250-clicks" loop>
+        <source src="undertale_043. Temmie Village.mp3" type="audio/mp3">
+      </audio>
+<!-- Music after 300 clicks -->
+      <audio id="music-after-300-clicks" loop>
+        <source src="undertale_100. MEGALOVANIA.mp3" type="audio/mp3">
+      </audio>  
+<!-- Music after 350 clicks -->
+      <audio id="music-after-350-clicks" loop>
+        <source src="undertale_048. Alphys.mp3" type="audio/mp3">
+      </audio>
+<!-- Music after 400 clicks -->
+      <audio id="music-after-400-clicks" loop>
+        <source src="undertale_046. Spear of Justice.mp3" type="audio/mp3">
+      </audio>
+<!-- Music after 450 clicks -->
+      <audio id="music-after-450-clicks" loop>
+        <source src="undertale_036. Dummy!.mp3" type="audio/mp3">
+      </audio> 
+<!-- Music after 500 clicks -->
+      <audio id="music-after-500-clicks" loop>
+        <source src="undertale_077. ASGORE.mp3" type="audio/mp3">
+      </audio> 
+<!-- Music after 550 clicks -->
+      <audio id="music-after-550-clicks" loop>
+        <source src="undertale_071. Undertale.mp3" type="audio/mp3">
+      </audio> 
+<!-- Music after 550 clicks -->
+      <audio id="music-after-550-clicks" loop>
+        <source src="undertale_097. But the Earth Refused to Die.mp3" type="audio/mp3">
+      </audio>
+<!-- Music after 600 clicks -->
+      <audio id="music-after-600-clicks" loop>
+        <source src="undertale_016. Nyeh Heh Heh!.mp3" type="audio/mp3">
+      </audio>
+<!-- Music after 650 clicks -->
+      <audio id="music-after-650-clicks" loop>
+        <source src="undertale_044. Tem Shop.mp3" type="audio/mp3">
+      </audio>   
+    </section>
+ </section>
+ <div id="modal" class="modal">
+  <div class="modal-content">
+    <span class="close">×</span>
+    <audio id="modal-audio" src="undertale_023. Shop.mp3" type="audio/mp3"></audio>
+    <h2 style="color: brown;">Магазин улучшений</h2>
+    <div class="shop">
+      <div class="upgrade">
+        <br>
+        <h2>белый фон (0 баллов)</h2>
+        <button id="white-button" class="buy-button">Купить</button>
+        <br>
+        <h2>Серый фон (100 баллов)</h2>
+        <button id="grey-button" class="buy-button">Купить</button>
+        <br>
+        <h2>Желтый фон (100 баллов)</h2>
+        <button id="yellow-button" class="buy-button">Купить</button>
+        <br>
+        <h2>Зеленый фон (100 баллов)</h2>
+        <button id="green-button" class="buy-button">Купить</button>
+        <br>
+        <h2>Голубой фон (100 баллов)</h2>
+        <button id="blue-button" class="buy-button">Купить</button>
+        <br>
+        <h2>Золотой фон (300 баллов)</h2>
+        <button id="gold-button" class="buy-button">Купить</button>
+        <br>
+        <h2>скоро(не нажимать)</h2>
+        <button id="speed-button" class="buy-button">Купить</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
